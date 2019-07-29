@@ -1,0 +1,2 @@
+<input type="number" #updatedstockvalue/>
+<button class="btn btn-primary" [style.background]='color' (click)="stockValueChanged(updatedstockvalue.value); updatedstockvalue.value = null;">Change Stock Value</button>

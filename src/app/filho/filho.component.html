@@ -1,0 +1,5 @@
+<p>filho works!</p>
+<ul *ngFor="let membroFamilia of recebeFamilia">
+  <li>{{ membroFamilia.nome }} {{ membroFamilia.sobrenome }}</li>
+</ul>
+<button (click)="feedback()">Enviar para o pai</button>
